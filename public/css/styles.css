@@ -1,0 +1,146 @@
+
+body {
+    font-family: 'Montserrat', sans-serif
+}
+#main-nav {
+    z-index: 50;
+    left: 0;
+    right: 0;
+}
+#top-nav li{
+    margin: 0 .4em;
+}
+
+.navbar-dark .navbar-nav .active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fce38a;
+    border-bottom: 1px solid rgb(209, 206, 206);
+}
+
+.carousel-caption.d-md-block.carousel-custom {
+    top: 20%;
+}
+
+.carousel-custom h3 {
+    font-size: 1.5em;
+}
+.carousel-custom p {
+    font-size: 1em;
+   letter-spacing: .2em; 
+}
+
+#carousel-bars li {
+  width: 120px;  
+}
+
+
+@media (min-width: 768px){
+    .carousel-caption.d-md-block.carousel-custom {
+        top: 30%;
+        font-size: 2em;
+    }
+
+}
+@media (min-width: 992px){
+    .carousel-caption.d-md-block.carousel-custom {
+        top: 30%;
+        font-size: 3em;
+    }
+
+}
+@media (min-width: 1160px){
+    .carousel-caption.d-md-block.carousel-custom {
+        top: 30%;
+        font-size: 3.5em;
+    }
+
+}
+
+#carousel-text li {
+    height: auto;
+    width: 120px;
+    border: none;
+    box-sizing: border-box;
+    text-indent: 0;
+    background-color: transparent;
+    color: #fff;
+    top: 0;
+    left: 0;
+    bottom: 20px;
+}
+
+#carousel-text {
+    bottom: 0;
+    left: 30px;
+}
+
+hr.hr {
+    width: 35px;
+    background-color: #fff;
+    color: #fff;
+    height: 2px;
+}
+
+.overlay {
+    cursor: pointer;
+    opacity: 0;
+    transition: all .3s;
+    
+}
+.overlay:hover {
+    opacity: 1;
+    background-image: linear-gradient(0deg, rgba(243, 158, 0, 0.6), rgba(98, 58, 13, 0.568));
+    backdrop-filter: blur(4px)
+}
+ .bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    opacity: .5;
+ }
+
+.bg-img {
+    background-image: url('/images/image\ \(7\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.image_mobile {
+   width: 40%;
+   height: auto;
+   position: relative;
+  
+}
+.image_mobile2 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom: 2%;
+    right: 20%;
+   
+}
+.scrollbar {
+    height: 201px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #007bff;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #007bffb0;
+}
